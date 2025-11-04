@@ -5,3 +5,4 @@ FROM sys.dm_os_buffer_descriptors
 GROUP BY database_id
 ORDER BY COUNT (*) * 8 / 1024 DESC
 GO
+
